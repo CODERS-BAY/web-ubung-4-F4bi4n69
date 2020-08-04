@@ -1,0 +1,29 @@
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+    background: url(/web-ubung-4-F4bi4n69/img/header.jpg);
+    background-position-x: -50px;
+    background-position-y: 500px;
+    background-size: 1433px 756px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a.aktuell {
+    text-decoration: underline;
+}
+
+a:link {color: black;}
+a:visited {color: #494949;}
+a:hover {color: #ffffff;}
