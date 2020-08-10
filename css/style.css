@@ -24,6 +24,77 @@ nav a.aktuell {
     text-decoration: underline;
 }
 
+body {
+    background-color: rgb(199, 199, 199);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main.start {
+    max-width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+section.start {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.start {
+    width: 20%;
+}
+
+#senden {
+    color: white;
+    background: green;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 10em;
+}
+
+#reset {
+    color: #000000;
+    background: #ff0000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+form {
+    margin-left:35%;
+}
+
+div.liste {
+    padding-left: 8em;
+}
+
+table {
+    width: 90%;
+    padding-top: 15px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    border-radius: 15px;
+}
+
+th {
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #7085ac;
+    color: #ffffff;
+}
+td {
+    border: 1px solid #000000;
+    padding: 4px;
+    text-align: center;
+    background-color: #858585;
+}
+
+caption {
+    text-decoration: underline;
+    font-size: x-large;
+}
+
 a:link {color: black;}
 a:visited {color: #494949;}
 a:hover {color: #ffffff;}
